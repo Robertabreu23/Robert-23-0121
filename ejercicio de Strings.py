@@ -8,5 +8,6 @@ print(s1.lower())
 print(s1[0:2])
 #Retornar la cantidaad de veces que se repite el ultimo caracter
 print(s1.count(s1[-1]))
-#Retornar la longitud del texto
-print(len(s1))
+#Retornar el texto invertido
+print(s1[::-1])
+
